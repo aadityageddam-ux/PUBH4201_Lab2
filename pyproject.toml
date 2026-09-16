@@ -1,0 +1,18 @@
+[project]
+name = "hds-lab2-airway-degs"
+version = "0.1.0"
+description = "PUBH 4201 Lab 2: differential expression analysis of dexamethasone-treated airway smooth muscle cells (GSE52778)"
+requires-python = ">=3.13"
+dependencies = [
+    "ipykernel>=7.3.0",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.11.2",
+    "nbconvert>=7.17.1",
+    "pandas>=3.0.5",
+    "scipy>=1.18.1",
+]
+
+[dependency-groups]
+dev = [
+    "nbformat>=5.11.1",
+]
